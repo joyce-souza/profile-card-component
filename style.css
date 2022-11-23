@@ -22,14 +22,15 @@ body, html, main {
 }
 
 body {
-    background-image: url(images/bg-pattern-top.svg);
-    background-image: url(images/bg-pattern-bottom.svg);
+    background-image: url(/images/bg-pattern-top.svg), 
+    url(/images/bg-pattern-bottom.svg);
+    background-position: bottom 250px left -300px, top 300px right -300px;
     background-repeat: no-repeat;
     background-color: var(--dark-cyan);
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
+
+
 
 main {
     display: flex;
