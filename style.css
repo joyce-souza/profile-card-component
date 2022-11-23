@@ -22,9 +22,9 @@ body, html, main {
 }
 
 body {
-    background-image: url(/images/bg-pattern-top.svg), 
-    url(/images/bg-pattern-bottom.svg);
-    background-position: bottom 250px left -300px, top 300px right -300px;
+    background-image: url(images/bg-pattern-top.svg), 
+    url(images/bg-pattern-bottom.svg);
+    background-position: bottom 250px left -290px, top 350px right -200px;
     background-repeat: no-repeat;
     background-color: var(--dark-cyan);
     display: flex;
@@ -73,12 +73,12 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: -40px;
+    margin-top: -35px;
 }
 
 .profile__info h1 {
-    font-size: 1.25rem;
-    margin-bottom: 5px;
+    font-size: 1.1563rem;
+    margin-bottom: 7px;
 }
 
 .profile__info span {
@@ -87,6 +87,7 @@ main {
 }
 
 .profile__info p {
+    font-size: .9375rem;
     font-weight: 600;
     opacity: .6;
 }
@@ -108,7 +109,7 @@ hr {
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   padding: 20px 20px 23px 20px;
+   padding: 20px 0 23px 0;
 }
 
 .container__info div > h1 {
