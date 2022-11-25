@@ -4,14 +4,14 @@ This is my solution to the profile card component challenge on Frontend Mentor W
 
 ## Screenshot
 
-![profile card component - desktop](images/screenshot-desktop.png)
+![profile card component - desktop](/images/screenshot-desktop.png)
 
-![profile card component - mobile](images/screenshot-mobile-1.png)
+![profile card component - mobile](/images/screenshot-mobile.png)
 
 ## Links
 
 - Solution URL: 
-- Live Site URL:
+- Live Site URL: https://joyce-souza.github.io/profile-card-component/
 
 ## Built with
 

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');  /*400 700*/
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');  
 
 *{
     margin: 0;
@@ -14,7 +14,6 @@
 --dark-gray: hsl(0, 0%, 59%);
 }
 
-/*h: 374*/
 
 body, html, main {
     width: 100%;
@@ -24,7 +23,7 @@ body, html, main {
 body {
     background-image: url(images/bg-pattern-top.svg), 
     url(images/bg-pattern-bottom.svg);
-    background-position: bottom 250px left -290px, top 350px right -200px;
+    background-position: bottom 250px left -290px, top 370px right -250px;
     background-repeat: no-repeat;
     background-color: var(--dark-cyan);
     display: flex;
@@ -77,6 +76,7 @@ main {
 }
 
 .profile__info h1 {
+    color: var(--very-dark-desaturated-blue);
     font-size: 1.1563rem;
     margin-bottom: 7px;
 }
@@ -87,6 +87,7 @@ main {
 }
 
 .profile__info p {
+    color: var(--very-dark-desaturated-blue);
     font-size: .9375rem;
     font-weight: 600;
     opacity: .6;
@@ -109,16 +110,26 @@ hr {
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   padding: 20px 0 23px 0;
+   padding: 17px 0 23px 0;
 }
 
 .container__info div > h1 {
-    font-size: 1.125rem;
+    color: var(--very-dark-desaturated-blue);
+    font-size: 1.25rem;
     font-weight: 800;
 }
 
 .container__info div > p {
-    font-size: .875rem;
+    color: var(--very-dark-desaturated-blue);
+    font-size: .75rem;
     font-weight: 400;
     opacity: .6;
+}
+
+@media (max-width: 500px) {
+    
+    body {
+        background-position: bottom 250px left -820px, top 370px right -720px;
+    }
+
 }
